@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "834268266483",
+    "project_id": "waytocode-dcdea",
+    "storage_bucket": "waytocode-dcdea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834268266483:android:fd2c46d588bcb6538d5c86",
+        "android_client_info": {
+          "package_name": "com.example.waytocode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834268266483-1nfk4rccbhi5p7o03fkh66at485nkkoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3aNDtTftTvi3JqdhwcSFfbGeVlukbhaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834268266483-1nfk4rccbhi5p7o03fkh66at485nkkoi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

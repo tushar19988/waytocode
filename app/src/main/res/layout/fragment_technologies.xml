@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/introbg"
+    tools:context=".fragment.TechnologiesFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+   <androidx.appcompat.widget.LinearLayoutCompat
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="30dp"
+       android:orientation="vertical">
+
+       <androidx.appcompat.widget.AppCompatTextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/technology"
+           android:textColor="@color/white"
+           android:fontFamily="@font/montserratbold"
+           android:textSize="32sp"
+           android:gravity="center"
+           android:textStyle="bold"
+           />
+       <androidx.appcompat.widget.AppCompatImageView
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:src="@drawable/technology"
+           android:layout_marginTop="10dp"
+           />
+       <androidx.appcompat.widget.AppCompatTextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/the_simplest_form_of_technology_is_the_development_and_use_of_basic_tools_the_prehistoric_invention_of_shaped_stone_tools_followed_by_the_discovery_of_how_to_control_fire_increased_sources_of_food_the_later_neolithic_revolution_extended_this_and_quadrupled_the_sustenance_available_from_a_territory_the_invention_of_the_wheel_helped_humans_to_travel_in_and_control_their_environment"
+           android:layout_marginTop="20dp"
+           android:textSize="16sp"
+           android:textColor="@color/white"
+           android:fontFamily="@font/welcome"
+            />
+
+
+
+
+   </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
