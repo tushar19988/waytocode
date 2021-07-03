@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.waytocode">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -12,39 +12,41 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".SoftwaretestingActivity" />
+        <activity android:name=".DigitalmarketingActivity" />
+        <activity android:name=".WebdesigningActivity" />
+        <activity android:name=".AppdevelopmentActivity" />
+        <activity android:name=".WebdevlopmentActivity" />
         <activity
             android:name=".NavigationActivity"
             android:label="Way To Code"
-            android:theme="@style/Theme.Waytocode.NoActionBar"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Waytocode.NoActionBar"></activity>
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IntroductionActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".SignupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SigninActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreenActivity"
             android:screenOrientation="portrait">
-        </activity>
-
-        <activity android:name=".ForgotPasswordActivity"
-            android:screenOrientation="portrait"
-            />
-        <activity android:name=".IntroductionActivity"
-            android:screenOrientation="portrait"
-            />
-        <activity android:name=".SignupActivity"
-            android:screenOrientation="portrait"
-            />
-        <activity android:name=".SigninActivity"
-            android:screenOrientation="portrait"
-            />
-        <activity android:name=".SplashScreenActivity"
-            android:screenOrientation="portrait"
-            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
-            android:screenOrientation="portrait"
-            >
-
-        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

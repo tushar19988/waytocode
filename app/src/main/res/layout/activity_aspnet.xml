@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/introbg"
+    tools:context=".technologies.AspnetActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/asp_net_development"
+                android:layout_marginTop="10dp"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/webdesign"
+                    android:scaleType="fitXY"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/our_web_design_company_provides_the_most_creative_unique_web_designs_which_can_help_you_to_earn_potential_customers_at_a_first_look_all_our_creative_innovative_and_professional_website_designing_are_according_to_the_web_standards_using_css_w3c_compliance_and_seo_friendly_when_it_comes_to_show_off_business_a_well_crafted_website_design_seems_to_play_an_important_role_we_are_specialized_in_designing_creative_user_centric_websites_customized_to_your_business_goals_targeted_niche_all_our_creative_innovative_and_professional_website_designing_are_according_to_the_web_standards_using_css_w3c_compliance_and_seo_friendly"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="20dp"
+                    android:gravity="start" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/ic_designing"
+                    android:scaleType="centerCrop"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/in_this_digital_marketing_generation_having_a_new_web_site_may_be_a_good_way_for_your_business_to_attach_with_new_customers_either_domestic_or_international_our_adroit_developers_know_their_work_pouring_over_a_plethora_of_hours_of_work_to_fulfill_more_than_our_clients_requirement_our_web_developers_have_proven_the_best_in_class_user_experienced_work_which_is_highly_appreciated_by_our_clients_as_standard_our_web_designs_are_fully_responsive_and_optimized_for_different_screen_sizes_so_look_and_work_perfectly_on_any_device_way_to_technologies_is_a_platform_from_where_you_can_achieve_your_targeted_audience_with_help_of_all_our_creative_innovative_and_professional_website_designing_we_offered_web_design_services_like_e_commerce_website_design_static_website_design_dynamic_website_design_flash_website_design_content_sites_design"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="20dp"
+                    android:gravity="start" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/introbg"
+    android:orientation="vertical"
+    tools:context=".technologies.PythonActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/python_development"
+                android:layout_marginTop="10dp"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/python"
+                    android:scaleType="fitXY"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/we_have_an_experience_and_expert_team_to_take_care_of_python_development_our_best_and_expert_developers_have_succeeded_in_creating_the_most_difficult_applications_in_python_we_have_been_successful_in_creating_websites_web_applications_applications_and_everything_in_python_django_we_work_on_various_different_frameworks_libraries_and_models_of_python_and_our_expert_team_takes_care_of_every_analysis_we_remain_fully_focused_on_the_satisfaction_of_our_clients_and_the_seriousness_of_the_project_so_that_we_can_complete_our_work_smoothly_our_team_breaks_through_each_observatory_and_moves_forward_and_keeps_working_in_a_systematic_and_analyzed_way_which_gives_you_an_idea_of_which_direction_your_project_is_going_and_your_vision_is_clear"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="20dp"
+                    android:gravity="start" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/pythonn"
+                    android:scaleType="fitXY"/>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/the_best_thing_about_python_is_that_being_a_high_level_language_it_is_one_of_the_most_demanding_language_in_the_market_and_is_known_as_a_great_langguage_for_beginners_and_expert_alike_python_is_used_by_the_hundred_of_thousand_of_program_and_is_used_in_many_places_sometime_only_python_code_is_used_for_a_program_but_most_of_the_time_it_is_used_to_do_simple_job_while_another_programing_language_is_used_to_do_more_complicated_task_python_s_most_popular_framework_is_django_django_is_a_widely_used_free_open_source_and_high_level_web_development_framework_it_provides_a_lot_of_features_to_the_developers_out_of_the_box_so_development_can_be_rapid_however_websites_built_from_it_are_secured_scalable_and_maintainable_at_the_same_time_django_is_a_high_level_python_web_framework_that_encourages_rapid_development_and_clean_pragmatic_design_built_by_experienced_developers_it_takes_care_of_much_of_the_hassle_of_web_development_so_you_can_focus_on_writing_your_app_without_needing_to_reinvent_the_wheel_it_s_free_and_open_source"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="20dp"
+                    android:gravity="start" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

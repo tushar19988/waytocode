@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/introbg"
+    tools:context=".AppdevelopmentActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_development"
+                android:layout_marginTop="10dp"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/ic_appdevelopment"
+                    android:scaleType="fitXY"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/our_core_solution_is_mobile_app_development_with_android_ios_and_flutter_we_are_building_the_robust_android_applications_that_help_your_business_to_grow_exponentially_we_are_here_for_you_with_custom_android_apps_development_web_based_apps_cloud_based_solutions_support_maintenance_way_to_code_technologies_is_the_best_mobile_app_development_company_in_india_we_are_helping_to_build_robust_android_applications_that_help_your_business_to_grow_exponentially"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="20dp"
+                    android:gravity="start" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/ic_mappdeveloper"
+                    android:scaleType="centerCrop"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/we_are_an_ahmedabad_based_it_company_we_have_really_new_and_best_competitive_ideas_to_boost_your_business_with_presence_market_strategies_and_requirements_we_have_a_very_skilled_trained_and_a_quick_responsive_team_who_is_always_ready_to_give_the_best_of_our_services_to_your_requirements_we_all_know_that_market_requirement_is_quick_and_rapid_growth_with_connectivity_through_mobile_application_is_the_best_solution_for_you_to_get_in_touch_with_your_market_presence_the_android_software_development_kit_sdk_includes_a_comprehensive_set_of_development_tools_5_these_include_a_debugger_libraries_a_handset_emulator_based_on_qemu_documentation_sample_code_and_tutorials_currently_supported_development_platforms_include_computers_running_linux_any_modern_desktop_linux_distribution_mac_os_x_10_5_8_or_later_and_windows_7_or_later_as_of_march_2015_the_sdk_is_not_available_on_android_itself_but_software_development_is_possible_by_using_specialized_android_applications"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="20dp"
+                    android:gravity="start" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

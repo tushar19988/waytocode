@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@drawable/introbg"
+    android:background="@color/white"
     tools:context=".fragment.TechnologiesFragment">
 
     <androidx.core.widget.NestedScrollView
@@ -17,10 +17,22 @@
    <androidx.appcompat.widget.LinearLayoutCompat
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:padding="30dp"
+
        android:orientation="vertical">
 
+
        <androidx.appcompat.widget.AppCompatTextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/technology"
+           android:textColor="@color/darkcolor"
+           android:fontFamily="@font/montserratbold"
+           android:textSize="32sp"
+           android:gravity="center"
+           android:textStyle="bold"
+           />
+
+<!--       <androidx.appcompat.widget.AppCompatTextView
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:text="@string/technology"
@@ -44,10 +56,13 @@
            android:textSize="16sp"
            android:textColor="@color/white"
            android:fontFamily="@font/welcome"
-            />
+            />-->
 
-
-
+       <androidx.recyclerview.widget.RecyclerView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/tgrecyclerView"
+           tools:listitem="@layout/tgitem_dataadapter"/>
 
    </androidx.appcompat.widget.LinearLayoutCompat>
 

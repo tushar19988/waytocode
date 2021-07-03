@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/introbg"
+    tools:context=".SoftwaretestingActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/software_testing"
+                android:layout_marginTop="10dp"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/softwaretesting"
+                    android:scaleType="fitXY"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/if_you_are_looking_for_a_reliable_software_testing_company_for_your_next_project_hire_experts_like_us_our_expert_team_members_provide_the_best_services_for_your_organization_your_work_time_is_precious_for_us_we_ensure_it_is_built_by_our_web_designers_software_testers_and_development_experts_test_the_features_functions_and_requirements_of_the_project_and_make_specific_planning_to_configure_it_after_making_testing_strategy_planning_validate_the_system_requirements_aginst_it_original_functionalities_execute_test_in_various_ways_using_different_agile_models"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="20dp"
+                    android:gravity="start" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/softwaaretesting"
+                    android:scaleType="centerCrop"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/qa_includes_activities_that_ensure_the_implementation_of_processes_procedures_and_standards_in_context_to_verification_of_developed_software_and_intended_requirements_through_quality_control_the_team_verifies_the_product_s_compliance_with_the_functional_requirements_as_defined_by_investopedia_it_is_a_process_through_which_a_business_seeks_to_ensure_that_product_quality_is_maintained_or_improved_and_manufacturing_errors_are_reduced_or_eliminated_testing_is_the_basic_activity_aimed_at_detecting_and_solving_technical_issues_in_the_software_source_code_and_assessing_the_overall_product_usability_performance_security_and_compatibility_it_has_a_very_narrow_focus_and_is_performed_by_the_test_engineers_in_parallel_with_the_development_process_or_at_the_dedicated_testing_stage_depending_on_the_methodological_approach_to_the_software_development_cycle"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="20dp"
+                    android:gravity="start" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

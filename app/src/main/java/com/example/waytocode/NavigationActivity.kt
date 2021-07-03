@@ -1,5 +1,7 @@
 package com.example.waytocode
 
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -111,6 +113,7 @@ class NavigationActivity : AppCompatActivity(), NavigationView.OnNavigationItemS
             R.id.nav_Logout ->{
                 val fragment= LogoutFragment()
                 replaceFragment(fragment)
+
 
             }
 

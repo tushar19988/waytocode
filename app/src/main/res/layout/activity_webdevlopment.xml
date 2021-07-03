@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/introbg"
+    tools:context=".WebdevlopmentActivity">
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+   <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/web_development"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/slideone"
+                android:scaleType="centerCrop"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/if_you_are_looking_for_a_reliable_web_development_company_for_your_next_project_hire_experts_like_us_our_expert_team_members_provide_the_best_services_for_your_organization_your_work_time_is_precious_for_us_we_ensure_it_is_built_by_our_web_designing_and_development_experts_we_follow_a_methodological_approach_to_provide_you_a_solid_and_longtime_applicable_solution_nowadays_online_marketing_and_business_even_websites_of_your_business_play_a_very_important_role_for_your_business_growth_we_are_here_to_build_your_ideas_concepts_and_goals_in_reality_through_a_website_we_have_a_dedicated_team_of_professional_designers_and_developers_creating_powerful_and_engaging_websites_we_provide_outsourcing_software_development_services_and_our_offshore_web_developers_help_you_understand_the_functionality_of_screen_resolution_and_design_web_pages_keeping_the_look_and_feel_of_the_website_intact"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:layout_marginTop="20dp"
+                android:gravity="start" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="80dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/slidetwo"
+                android:scaleType="centerCrop"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/we_believe_that_a_good_online_presence_starts_with_a_great_website_and_it_goes_without_saying_that_the_majority_of_online_experiences_begin_with_your_website_we_develop_great_wordpress_magento_and_custom_ecommerce_solutions_thus_helping_businesses_to_scale_grow_and_develop_our_team_also_experts_in_employing_various_frameworks_created_for_the_development_of_static_and_dynamic_websites_keeping_in_mind_your_budget_provisions_are_you_a_business_owner_or_startup_and_are_you_looking_for_the_best_web_design_company_and_development_solution_if_yes_then_your_wait_ends_here_with_way_to_code_technologies_llp_our_e_commerce_website_development_solution_helps_deliver_a_comprehensive_and_effective_e_business_strategy_products_and_marketing_tactics_design_and_usability_technology_and_security"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:layout_marginTop="20dp"
+                android:gravity="start" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

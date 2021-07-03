@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/introbg"
+    tools:context=".DigitalmarketingActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/digital_marketing"
+                android:layout_marginTop="10dp"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/digtal"
+                    android:scaleType="fitXY"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/if_you_are_looking_for_a_reliable_digital_marketing_seo_company_for_your_next_project_hire_experts_like_us_our_expert_team_members_provide_the_best_services_for_your_organization_your_work_time_is_precious_for_us_we_ensure_it_is_built_by_our_experts_digital_marketing_is_the_process_of_marketing_by_tracking_new_traffics_leads_sales_of_your_products_and_services_and_by_using_it_you_can_take_decision_how_to_increase_consumers_of_your_products_it_is_digital_and_online_based_marketing_by_using_devices_like_mobile_phones_laptops_etc_to_promote_companies_products"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="20dp"
+                    android:gravity="start" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/digitall"
+                    android:scaleType="centerCrop"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/digital_marketing_specifically_refers_to_achieving_marketing_objectives_through_applying_digital_technologies_and_media_in_marketing_is_to_make_the_right_offer_at_the_right_time_and_in_the_right_place_today_your_customers_are_online_hanging_out_in_social_media_staying_updated_on_news_sites_and_blogs_and_searching_online_when_they_have_a_need_digital_marketing_puts_you_in_those_same_channels_so_your_best_prospects_can_see_you_learn_more_about_you_and_even_ask_questions_to_learn_more_about_you_and_your_products_or_services_at_digitalmarketer_our_objective_is_to_clear_the_confusion_about_the_tactics_that_work_and_how_to_use_them_to_grow_your_business_we_stand_firmly_against_the_so_called_gurus"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="20dp"
+                    android:gravity="start" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

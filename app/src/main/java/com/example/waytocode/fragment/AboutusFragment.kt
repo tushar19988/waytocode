@@ -16,23 +16,31 @@ import com.google.firebase.database.FirebaseDatabase
 
 class AboutusFragment : Fragment() {
 
-    var ref:DatabaseReference?=null
-    lateinit var userRecyclerview :RecyclerView
+    var ref: DatabaseReference? = null
+    lateinit var userRecyclerview: RecyclerView
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
         // Inflate the layout for this fragment
-        val view=inflater.inflate(R.layout.fragment_aboutus, container, false)
+        val view = inflater.inflate(R.layout.fragment_aboutus, container, false)
 
-        userRecyclerview=view.findViewById(R.id.userlist)
+        userRecyclerview = view.findViewById(R.id.userlist)
 
-        ref=FirebaseDatabase.getInstance().getReference("Ourteam")
+        ref = FirebaseDatabase.getInstance().getReference("Ourteam")
 
-        initView(view)
+        /* initView(view)*/
         return view
     }
+}
 
+/*
     private fun initView(view: View) {
 
+*/
+/*
       userRecyclerview.layoutManager=LinearLayoutManager(context,LinearLayoutManager.HORIZONTAL,false)
 
        val firebaseAdapter=object :FirebaseRecyclerAdapter<RetriveData,ViewHolder>(
@@ -45,7 +53,9 @@ class AboutusFragment : Fragment() {
        }
 
     }
+*//*
+
 
     class ViewHolder(val view: View):RecyclerView.ViewHolder(view)
 
-}
+}*/
