@@ -29,7 +29,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/servicename"
             android:textColor="@color/darkcolor"
-            android:fontFamily="@font/montserratbold"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
             android:textSize="12sp"
             android:layout_marginTop="20dp"
             android:padding="5dp"/>

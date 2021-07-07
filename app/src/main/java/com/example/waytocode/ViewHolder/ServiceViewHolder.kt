@@ -1,16 +1,9 @@
 package com.example.waytocode.ViewHolder
 
-import android.content.Intent
 import android.view.View
-import android.widget.TextView
-import android.widget.Toast
-import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
-import com.example.waytocode.R
-import com.example.waytocode.WebdesigningActivity
-import com.example.waytocode.adapter.serviceadapter
 
-class ServiceViewHolder (view: View,listener:serviceadapter): RecyclerView.ViewHolder(view)  {
+class ServiceViewHolder(view: View): RecyclerView.ViewHolder(view)
 
    /* init {
 
@@ -53,7 +46,7 @@ class ServiceViewHolder (view: View,listener:serviceadapter): RecyclerView.ViewH
 
 
 */
-}
+
 
 
 
